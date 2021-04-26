@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Index from "../compontents/views/Index/Index";
-import SignIn from "../compontents/views/SignIn";
-import SignUp from "../compontents/views/SignUp";
+import Index from "../components/views/Index/Index";
+import SignIn from "../components/views/SignIn";
+import SignUp from "../components/views/SignUp";
 
 import { SIGN_UP_PATH, SIGN_IN_PATH } from "./paths";
 

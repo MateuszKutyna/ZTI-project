@@ -1,10 +1,16 @@
 export interface Colors {
-  white: string;
   black: string;
+  backgroundGrey: string;
+  paleGrey: string;
+  purpleySemitransparent: string;
+  white: string;
 }
 const colors: Colors = {
-  white: "#fff",
+  backgroundGrey: "#efefef",
   black: "#000",
+  paleGrey: "#f2efff",
+  purpleySemitransparent: "rgba(112, 82, 233, .38)",
+  white: "#fff",
 };
 
 export default colors;
